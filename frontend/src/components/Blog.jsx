@@ -6,7 +6,7 @@ function Blog() {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://blog-portfolio-backend-cbyr.onrender.com";
 
   useEffect(() => {
     axios

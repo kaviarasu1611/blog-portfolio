@@ -10,7 +10,7 @@ function Contact() {
 
   const [status, setStatus] = useState("");
 
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://blog-portfolio-backend-cbyr.onrender.com";
 
   const handleChange = (e) => {
     setFormData({
